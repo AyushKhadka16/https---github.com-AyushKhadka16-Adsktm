@@ -1,0 +1,22 @@
+    //Liked combination
+    background: linear-gradient(225deg, #2C3E50 0%, #E67E22 50%, #34495E 100%);
+    background: linear-gradient(45deg, #2C3E50 0%, #E67E22 100%);
+
+    background: linear-gradient(135deg, #34495E 0%, #D35400 100%);
+
+
+// Other
+background: linear-gradient(135deg, #2C3E50 0%, #E67E22 50%, #2C3E50 100%);
+background: linear-gradient(to right, #2C3E50 40%, #E67E22 60%);
+background: linear-gradient(45deg, #2C3E50, #34495E, #E67E22, #D35400);
+
+background: linear-gradient(135deg, #2C3E50 20%, #E67E22 80%);
+background: linear-gradient(to right, #34495E 0%, #2C3E50 100%);
+
+
+    background: linear-gradient(135deg, #2C3E50 0%, #E67E22 100%);
+    background: linear-gradient(to right, #2C3E50 30%, #E67E22 100%);
+    background: linear-gradient(45deg, #2C3E50 0%, #E67E22 100%);
+    background: linear-gradient(to right, #2C3E50 50%, #E67E22 50%);
+
+    background: linear-gradient(135deg, #34495E 0%, #D35400 100%);
