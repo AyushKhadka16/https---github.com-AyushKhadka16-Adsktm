@@ -153,34 +153,40 @@
     </section>
 
     <!-- Services Section -->
-    <section id="services" class="py-5">
-        <div class="container">
-            <h2 class="text-center mb-5">Our Services</h2>
-            <div class="row">
-                <div class="col-md-4 mb-4">
+<section id="services" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Our Services</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <a href="services/search_engine_optimization.php" class="text-decoration-none">
                     <div class="service-card p-4 text-center">
                         <i class="fas fa-chart-line mb-3 text-primary" style="font-size: 3rem;"></i>
-                        <h3>SEO Optimization</h3>
-                        <p>Boost your online visibility and search rankings.</p>
+                        <h3 class="text-dark">SEO Optimization</h3>
+                        <p class="text-muted">Boost your online visibility and search rankings.</p>
                     </div>
-                </div>
-                <div class="col-md-4 mb-4">
+                </a>
+            </div>
+            <div class="col-md-4 mb-4">
+                <a href="#" class="text-decoration-none">
                     <div class="service-card p-4 text-center">
                         <i class="fas fa-bullhorn mb-3 text-primary" style="font-size: 3rem;"></i>
-                        <h3>Social Media Marketing</h3>
-                        <p>Engage your audience across multiple platforms.</p>
+                        <h3 class="text-dark">Social Media Marketing</h3>
+                        <p class="text-muted">Engage your audience across multiple platforms.</p>
                     </div>
-                </div>
-                <div class="col-md-4 mb-4">
+                </a>
+            </div>
+            <div class="col-md-4 mb-4">
+                <a href="#" class="text-decoration-none">
                     <div class="service-card p-4 text-center">
                         <i class="fas fa-pen-nib mb-3 text-primary" style="font-size: 3rem;"></i>
-                        <h3>Content Strategy</h3>
-                        <p>Create compelling content that converts.</p>
+                        <h3 class="text-dark">Content Strategy</h3>
+                        <p class="text-muted">Create engaging content that delivers value.</p>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- Contact Section -->
     <section id="contact" class="bg-light py-5">
