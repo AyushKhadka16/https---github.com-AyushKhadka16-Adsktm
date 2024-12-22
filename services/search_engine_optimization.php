@@ -8,7 +8,6 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        /* Reusing the same CSS from the main page */
         :root {
             --primary-blue: #2C3E50;
             --accent-orange: #E67E22;
@@ -78,7 +77,7 @@
         background-color: #f8f9fa;
         border-radius: 10px;
         padding: 30px 15px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
 
     /* Headings */
@@ -168,7 +167,7 @@
 
         .pricing-card:hover {
             transform: translateY(-10px);
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
         }
         
     </style>

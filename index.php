@@ -91,6 +91,10 @@
             transition: transform 0.3s ease;
         }
 
+        .service-card .text-primary {
+            color: var(--accent-orange) !important;
+        }
+
         .service-card:hover {
             transform: translateY(-10px);
             box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
@@ -109,10 +113,6 @@
         .footer {
             background: linear-gradient(45deg, #2C3E50 0%, #E67E22 100%);
             color: white;
-        }
-
-        .service-card .text-primary {
-            color: var(--accent-orange) !important;
         }
     </style>
 </head>
@@ -153,40 +153,49 @@
     </section>
 
     <!-- Services Section -->
-<section id="services" class="py-5">
-    <div class="container">
-        <h2 class="text-center mb-5">Our Services</h2>
-        <div class="row">
-            <div class="col-md-4 mb-4">
-                <a href="services/search_engine_optimization.php" class="text-decoration-none">
-                    <div class="service-card p-4 text-center">
-                        <i class="fas fa-chart-line mb-3 text-primary" style="font-size: 3rem;"></i>
-                        <h3 class="text-dark">SEO Optimization</h3>
-                        <p class="text-muted">Boost your online visibility and search rankings.</p>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-4 mb-4">
-                <a href="#" class="text-decoration-none">
-                    <div class="service-card p-4 text-center">
-                        <i class="fas fa-bullhorn mb-3 text-primary" style="font-size: 3rem;"></i>
-                        <h3 class="text-dark">Social Media Marketing</h3>
-                        <p class="text-muted">Engage your audience across multiple platforms.</p>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-4 mb-4">
-                <a href="#" class="text-decoration-none">
-                    <div class="service-card p-4 text-center">
-                        <i class="fas fa-pen-nib mb-3 text-primary" style="font-size: 3rem;"></i>
-                        <h3 class="text-dark">Content Strategy</h3>
-                        <p class="text-muted">Create engaging content that delivers value.</p>
-                    </div>
-                </a>
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Services</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <a href="services/search_engine_optimization.php" class="text-decoration-none">
+                        <div class="service-card p-4 text-center">
+                            <i class="fas fa-chart-line mb-3 text-primary" style="font-size: 3rem;"></i>
+                            <h3 class="text-dark">SEO Optimization</h3>
+                            <p class="text-muted">Boost your online visibility and search rankings.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <a href="services/email_marketing.php" class="text-decoration-none">
+                        <div class="service-card p-4 text-center">
+                            <i class="fas fa-envelope mb-3 text-primary" style="font-size: 3rem;"></i>
+                            <h3 class="text-dark">Email Marketing</h3>
+                            <p class="text-muted">Drive conversions with targeted email campaigns.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <a href="services/social_media_marketing.php" class="text-decoration-none">
+                        <div class="service-card p-4 text-center">
+                            <i class="fas fa-bullhorn mb-3 text-primary" style="font-size: 3rem;"></i>
+                            <h3 class="text-dark">Social Media Marketing</h3>
+                            <p class="text-muted">Engage your audience across multiple platforms.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <a href="services/content_strategy.php" class="text-decoration-none">
+                        <div class="service-card p-4 text-center">
+                            <i class="fas fa-pen-nib mb-3 text-primary" style="font-size: 3rem;"></i>
+                            <h3 class="text-dark">Content Strategy</h3>
+                            <p class="text-muted">Create engaging content that delivers value.</p>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
     <!-- Contact Section -->
     <section id="contact" class="bg-light py-5">
@@ -199,17 +208,17 @@
                             <div class="mb-3">
                                 <h5 class="text-primary"><i class="fas fa-envelope me-2"></i>Email</h5>
                                 <p>info@adsktm.com <br>
-                                adsktm@gmail.com</p>
+                                    adsktm@gmail.com</p>
                             </div>
                             <div class="mb-3">
                                 <h5 class="text-primary"><i class="fas fa-phone me-2"></i>Phone</h5>
                                 <p> +977 015590123 <br>
-                                 +977 9841123456</p>
+                                    +977 9841123456</p>
                             </div>
                             <div>
                                 <h5 class="text-primary"><i class="fas fa-map-marker-alt me-2"></i>Address</h5>
                                 <p>Corporate Office: <br>
-                                New Baneshwor, Kathmandu</p>
+                                    New Baneshwor, Kathmandu</p>
                             </div>
                         </div>
                     </div>
