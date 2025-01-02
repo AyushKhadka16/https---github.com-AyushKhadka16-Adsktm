@@ -24,7 +24,6 @@
 
         .navbar-brand img {
             max-height: 50px;
-            /* Reduced logo size */
             border-radius: 50%;
             border: 1px solid var(--accent-orange);
             margin-right: 10px;
@@ -33,7 +32,6 @@
         .navbar-brand span {
             color: white;
             font-size: 1.6rem;
-            /* Reduced brand title size */
             font-weight: bold;
         }
 
@@ -41,9 +39,7 @@
             color: white !important;
             transition: all 0.3s ease;
             font-size: 1.1rem;
-            /* Reduced nav links font size */
             margin: 0 5px;
-            /* Reduced spacing between nav links */
         }
 
         .nav-link:hover {

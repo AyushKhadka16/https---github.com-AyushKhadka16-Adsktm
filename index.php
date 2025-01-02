@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ADSKTM - Digital Marketing Solutions</title>
+    <!-- Adding Fevicon -->
+    <link rel="icon" type="image/x-icon" href="images/adsktmlogo.png">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
@@ -21,8 +23,8 @@
         }
 
         .navbar {
-            background: linear-gradient(45deg, #2C3E50 0%, #E67E22 100%);
-            padding: 10px 0;
+            background: var(--secondary-blue);
+            padding: 0px 0;
         }
 
         .navbar-brand {
@@ -31,17 +33,15 @@
         }
 
         .navbar-brand img {
-            max-height: 50px;
-            /* Reduced logo size */
-            border-radius: 50%;
-            border: 1px solid var(--accent-orange);
+            max-height: 60px;
+            border-radius: 100%;
+            border: 2px solid var(--accent-orange);
             margin-right: 10px;
         }
 
         .navbar-brand span {
             color: white;
             font-size: 1.6rem;
-            /* Reduced brand title size */
             font-weight: bold;
         }
 
@@ -49,9 +49,15 @@
             color: white !important;
             transition: all 0.3s ease;
             font-size: 1.1rem;
-            /* Reduced nav links font size */
             margin: 0 5px;
-            /* Reduced spacing between nav links */
+        }
+
+        .navbar-brand:hover {
+            transform: scale(1.02);
+        }
+
+        .navbar-brand:hover span {
+            color: #fcae1e !important;
         }
 
         .nav-link:hover {
@@ -65,19 +71,20 @@
             overflow: hidden;
         }
 
-        .hero-section video {
+        /* .hero-section video {
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 98%;
             object-fit: cover;
-        }
+        } */
 
         .hero-section .btn-overlay {
             position: absolute;
             bottom: 0;
-            left: 50%;
+            top: 68%;
+            left: 11.5%;
             transform: translateX(-50%);
             padding-bottom: 0.5rem;
             text-align: center;
@@ -122,7 +129,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="images/adsktmlogo.png" alt="ADSKTM Logo">
+                <img src="images/adsktmlogo3.png" alt="ADSKTM Logo">
                 <span>ADSKTM</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -130,11 +137,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="products.php">Our Products</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about_us.php">About Us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link" href="blogs.php">Blogs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services"><i>Services</i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="products.php"><i>Our Products</i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="about_us.php"><i>About Us</i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact"><i>Contact</i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="blogs.php"><i>Blogs</i></a></li>
 
                 </ul>
             </div>
@@ -143,19 +150,21 @@
 
     <!-- Hero Section -->
     <section class="hero-section">
-        <video autoplay loop muted playsinline>
+        <!-- <video autoplay loop muted playsinline>
             <source src="assests/digital_marketing_video2.mp4" type="video/mp4">
             Your browser does not support the video tag.
-        </video>
+        </video> -->
+        <img src="images/adsktm banner3.png" alt="Digital Marketing Banner" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
         <div class="btn-overlay">
             <a href="#contact" class="btn btn-primary btn-lg mb-4">Get Started</a>
         </div>
     </section>
+    <hr>
 
     <!-- Services Section -->
     <section id="services" class="py-5">
         <div class="container">
-            <h2 class="text-center mb-5">Our Services</h2>
+            <h2 class="text-center mb-5"><i>Our Services</i></h2>
             <div class="row">
                 <div class="col-md-4 mb-4">
                     <a href="services/search_engine_optimization.php" class="text-decoration-none">
@@ -196,6 +205,7 @@
             </div>
         </div>
     </section>
+    <hr>
 
     <!-- Contact Section -->
     <section id="contact" class="bg-light py-5">
@@ -203,22 +213,33 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="contact-info mb-4">
-                        <h2 class="mb-4">Our Contacts</h2>
+                        <h2 class="mb-4"><i>Our Contacts</i></h2>
                         <div class="contact-details">
                             <div class="mb-3">
                                 <h5 class="text-primary"><i class="fas fa-envelope me-2"></i>Email</h5>
-                                <p>info@adsktm.com <br>
-                                    adsktm@gmail.com</p>
+                                <!-- <p>info@adsktm.com <br>
+                                    adsktm@gmail.com</p> -->
+                                    <ul>
+                                    <li>info@adsktm.com</li>
+                                    <li>adsktm@gmail.com</li>
+                                </ul>
                             </div>
                             <div class="mb-3">
                                 <h5 class="text-primary"><i class="fas fa-phone me-2"></i>Phone</h5>
-                                <p> +977 015590123 <br>
-                                    +977 9841123456</p>
+                                <!-- <p> +977 015590123 <br>
+                                    +977 9841123456</p> -->
+                                <ul>
+                                    <li>+977 015501234</li>
+                                    <li>+977 9841123456</li>
+                                </ul>
                             </div>
                             <div>
                                 <h5 class="text-primary"><i class="fas fa-map-marker-alt me-2"></i>Address</h5>
-                                <p>Corporate Office: <br>
-                                    New Baneshwor, Kathmandu</p>
+                                <!-- <p>Corporate Office:
+                                    New Baneshwor, Kathmandu</p> -->
+                                <ul>
+                                    <li>Corporate Office: New Baneshwor, Kathmandu</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -226,7 +247,7 @@
                 <div class="col-md-6">
                     <div class="card">
                         <div class="card-body">
-                            <h2 class="text-center mb-4">Send Us a Message</h2>
+                            <h2 class="text-center mb-4"><i>Send Us a Message</i></h2>
                             <form>
                                 <div class="mb-3">
                                     <input type="text" class="form-control" placeholder="Your Name" required>

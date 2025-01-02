@@ -57,7 +57,7 @@
         .page-nav {
             background-color: #fff;
             padding: 15px 0;
-            box-shadow: 0 2px 4px rgba(0.5,0.5,0.9,0.5);
+            box-shadow: 0 2px 4px rgba(0.5, 0.5, 0.9, 0.5);
             position: sticky;
             top: 0;
             z-index: 100;
@@ -88,7 +88,7 @@
             background-color: var(--accent-orange);
             color: white;
         }
-        
+
 
         .main-title {
             text-align: center;
@@ -153,76 +153,79 @@
         }
 
         /* team members */
-.team-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-    margin-top: 30px;
-}
-.team-member {
-    background: white;
-    border-radius: 15px;
-    padding: 25px;
-    text-align: center;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s ease;
-}
-.team-member:hover {
-    transform: translateY(-10px);
-}
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+            margin-top: 30px;
+        }
 
-.member-image {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin: 0 auto 20px;
-    overflow: hidden;
-    border: 3px solid var(--accent-orange);
-}
+        .team-member {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease;
+        }
 
-.member-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.member-name {
-    color: var(--primary-blue);
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin-bottom: 5px;
-}
-.member-position {
-    color: var(--accent-orange);
-    font-weight: 700;
-    margin-bottom: 15px;
-    font-size: 1.1rem;
-}
+        .team-member:hover {
+            transform: translateY(-10px);
+        }
 
-.member-specialization {
-    color: var(--secondary-blue);
-    font-size: 1rem;
-    margin-bottom: 15px;
-    font-weight: 500;
-}
+        .member-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            overflow: hidden;
+            border: 3px solid var(--accent-orange);
+        }
 
-.member-quote {
-    font-style: italic;
-    color: #666;
-    font-size: 0.95rem;
-    font-weight: 600;
-    line-height: 1.6;
-    padding: 15px;
-    background: #f0efe7;
-    border-radius: 10px;
-    margin-top: 15px;
-}
+        .member-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
 
-@media (max-width: 768px) {
-    .team-grid {
-        grid-template-columns: 1fr;
-    }
-} 
+        .member-name {
+            color: var(--primary-blue);
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
 
+        .member-position {
+            color: var(--accent-orange);
+            font-weight: 700;
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+
+        .member-specialization {
+            color: var(--secondary-blue);
+            font-size: 1rem;
+            margin-bottom: 15px;
+            font-weight: 500;
+        }
+
+        .member-quote {
+            font-style: italic;
+            color: #666;
+            font-size: 0.95rem;
+            font-weight: 600;
+            line-height: 1.6;
+            padding: 15px;
+            background: #f0efe7;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+
+        @media (max-width: 768px) {
+            .team-grid {
+                grid-template-columns: 1fr;
+            }
+        }
     </style>
 </head>
 
@@ -262,7 +265,7 @@
     <!-- Main Content -->
     <div class="container">
         <h1 class="main-title">About ADSKTM</h1>
-        
+
         <!-- About Section -->
         <section id="about" class="section-content scroll-padding">
             <div class="section-text">
@@ -291,57 +294,57 @@
         </section> -->
 
         <section id="team" class="section-content scroll-padding">
-    <h2 class="section-title">Our Team</h2>
-    <div class="section-text">
-        <p>Our team comprises seasoned digital marketing professionals, innovative data analysts, creative content creators, and expert SEO specialists who share a common passion for digital excellence. Each team member brings unique expertise and perspectives, creating a dynamic environment where creativity meets technical proficiency.</p>
-    </div>
-    
-    <div class="team-grid">
-        <!-- Social Media Marketing Lead -->
-        <div class="team-member">
-            <div class="member-image">
-                <img src="images/profile_pic.jpg" alt="Aarati Sharma">
+            <h2 class="section-title">Our Team</h2>
+            <div class="section-text">
+                <p>Our team comprises seasoned digital marketing professionals, innovative data analysts, creative content creators, and expert SEO specialists who share a common passion for digital excellence. Each team member brings unique expertise and perspectives, creating a dynamic environment where creativity meets technical proficiency.</p>
             </div>
-            <h3 class="member-name">Aarati Sharma</h3>
-            <div class="member-position">Social Media Marketing Lead</div>
-            <div class="member-specialization">Specialization: Instagram & TikTok Strategy</div>
-            <div class="member-quote">"In social media, authenticity and timing are everything. We don't just create content; we create conversations."</div>
-        </div>
 
-        <!-- Social Media Marketing Specialist -->
-        <div class="team-member">
-            <div class="member-image">
-                <img src="images/profile_pic.jpg" alt="Ayush Khadka">
-            </div>
-            <h3 class="member-name">Ayush Khadka</h3>
-            <div class="member-position">Social Media Marketing Specialist</div>
-            <div class="member-specialization">Specialization: Facebook & LinkedIn Campaigns</div>
-            <div class="member-quote">"Building meaningful connections through social media requires understanding both data and human psychology."</div>
-        </div>
+            <div class="team-grid">
+                <!-- Social Media Marketing Lead -->
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="images/profile_pic.jpg" alt="Aarati Sharma">
+                    </div>
+                    <h3 class="member-name">Aarati Sharma</h3>
+                    <div class="member-position">Social Media Marketing Lead</div>
+                    <div class="member-specialization">Specialization: Instagram & TikTok Strategy</div>
+                    <div class="member-quote">"In social media, authenticity and timing are everything. We don't just create content; we create conversations."</div>
+                </div>
 
-        <!-- SEO Expert -->
-        <div class="team-member">
-            <div class="member-image">
-                <img src="images/profile_pic.jpg" alt="Binod Poudel">
-            </div>
-            <h3 class="member-name">Binod Poudel</h3>
-            <div class="member-position">SEO Expert</div>
-            <div class="member-specialization">Specialization: Technical SEO & Analytics</div>
-            <div class="member-quote">"SEO is a marathon, not a sprint. We focus on sustainable, long-term growth strategies."</div>
-        </div>
+                <!-- Social Media Marketing Specialist -->
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="images/profile_pic.jpg" alt="Ayush Khadka">
+                    </div>
+                    <h3 class="member-name">Ayush Khadka</h3>
+                    <div class="member-position">Social Media Marketing Specialist</div>
+                    <div class="member-specialization">Specialization: Facebook & LinkedIn Campaigns</div>
+                    <div class="member-quote">"Building meaningful connections through social media requires understanding both data and human psychology."</div>
+                </div>
 
-        <!-- Content Strategy Director -->
-        <div class="team-member">
-            <div class="member-image">
-                <img src="images/profile_pic.jpg" alt="Pratima Shrestha">
+                <!-- SEO Expert -->
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="images/profile_pic.jpg" alt="Binod Poudel">
+                    </div>
+                    <h3 class="member-name">Binod Poudel</h3>
+                    <div class="member-position">SEO Expert</div>
+                    <div class="member-specialization">Specialization: Technical SEO & Analytics</div>
+                    <div class="member-quote">"SEO is a marathon, not a sprint. We focus on sustainable, long-term growth strategies."</div>
+                </div>
+
+                <!-- Content Strategy Director -->
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="images/profile_pic.jpg" alt="Pratima Shrestha">
+                    </div>
+                    <h3 class="member-name">Pratima Shrestha</h3>
+                    <div class="member-position">Content Strategy Director</div>
+                    <div class="member-specialization">Specialization: Content Planning & Brand Voice</div>
+                    <div class="member-quote">"Great content tells a story that resonates with your audience while driving meaningful business results."</div>
+                </div>
             </div>
-            <h3 class="member-name">Pratima Shrestha</h3>
-            <div class="member-position">Content Strategy Director</div>
-            <div class="member-specialization">Specialization: Content Planning & Brand Voice</div>
-            <div class="member-quote">"Great content tells a story that resonates with your audience while driving meaningful business results."</div>
-        </div>
-    </div>
-</section>
+        </section>
 
 
         <!-- Approach Section -->
@@ -367,4 +370,5 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

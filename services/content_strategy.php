@@ -68,12 +68,7 @@
             background: linear-gradient(45deg, #2C3E50 0%, #E67E22 100%);
             color: white;
         }
-
-       
-        
-
-
-         
+                  
     /* Container and Layout Styles */
     .row {
         background-color: #f8f9fa;
