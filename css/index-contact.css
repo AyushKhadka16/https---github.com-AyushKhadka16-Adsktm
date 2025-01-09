@@ -1,0 +1,71 @@
+#contact {
+    background-color: #f8f9fa;
+}
+
+.contact-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(0,0,0,0.05);
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.icon-box {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.contact-card:hover .icon-box {
+    transform: scale(1.1);
+}
+
+.form-floating > .form-control,
+.form-floating > .form-control-plaintext {
+    height: calc(3.5rem + 2px);
+    line-height: 1.25;
+}
+
+.form-floating > label {
+    padding: 1rem 0.75rem;
+}
+
+.btn-primary {
+    padding: 0.8rem 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+}
+
+/* Responsive text sizes */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+}
+
+
+        /* Loading spinner for form submission */
+        .spinner-border {
+            width: 1rem;
+            height: 1rem;
+            border-width: 0.15em;
+        }
+
+        /* Smooth transitions for all interactive elements */
+        button,
+        a,
+        input,
+        textarea {
+            transition: all 0.3s ease;
+        }

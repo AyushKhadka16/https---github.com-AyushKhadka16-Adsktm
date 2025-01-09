@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ADSKTM - Blog Post</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/navbar.css">
     <style>
         :root {
             --primary-blue: #2C3E50;
@@ -17,43 +18,7 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background-color: #f4f6f9;
         }
-
-        .navbar {
-            background: linear-gradient(45deg, #2C3E50 0%, #E67E22 100%);
-            padding: 10px 0;
-            margin-bottom: 30px;
-        }
-
-        .navbar-brand {
-            display: flex;
-            align-items: center;
-        }
-
-        .navbar-brand img {
-            max-height: 50px;
-            border-radius: 50%;
-            border: 1px solid var(--accent-orange);
-            margin-right: 10px;
-        }
-
-        .navbar-brand span {
-            color: white;
-            font-size: 1.6rem;
-            font-weight: bold;
-        }
-
-        .nav-link {
-            color: white !important;
-            transition: all 0.3s ease;
-            font-size: 1.1rem;
-            margin: 0 5px;
-        }
-
-        .nav-link:hover {
-            color: #fcae1e !important;
-            transform: scale(1.05);
-        }
-
+        
         .blog-content {
             background-color: white;
             border-radius: 15px;
@@ -134,12 +99,10 @@
         } */
 
         .footer {
-            background: linear-gradient(45deg, #2C3E50 0%, #E67E22 100%);
+            background: var(--secondary-blue);
             color: white;
-            padding: 20px 0;
-            margin-top: 50px;
         }
-
+        
         @media (max-width: 768px) {
             .blog-content {
                 padding: 20px;
@@ -154,23 +117,26 @@
 </head>
 
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
+      <!-- Navbar -->
+   <nav class="navbar navbar-expand-lg navbar-dark" id="mainNav">
         <div class="container">
-            <a class="navbar-brand" href="../index.html">
-                <img src="../images/adsktmlogo.png" alt="ADSKTM Logo">
+            <a class="navbar-brand" href="../index.php">
+                <img src="../images/adsktmlogo3.png" alt="ADSKTM Logo">
                 <span>ADSKTM</span>
             </a>
+            <!-- Modified hamburger button with close icon -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
+                <span class="close-icon">&times;</span>
             </button>
+            <!-- Side-sliding menu container (#2) -->
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="../index.html#services">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="../products.html">Our Products</a></li>
-                    <li class="nav-item"><a class="nav-link" href="../about_us.html">About Us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="../index.html#contact">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link" href="../blogs.html">Blogs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../index.php#services"><i>Our Services</i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="../index.php#products"><i>Our Products</i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="../index.php#contact"><i>Contact Us</i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="../about_us.php"><i>About Us</i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="../blogs.php"><i>Blogs</i></a></li>
                 </ul>
             </div>
         </div>

@@ -1,0 +1,40 @@
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 60px); /*Subtract navbar height */
+}
+
+.hero-section img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* object-fit: contain; */
+    background-color: #f4f6f9; /* Match your page background */
+}
+
+.btn-overlay {
+    position: absolute;
+    bottom: 20%;
+    left: 17.5%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .hero-section {
+        height: calc(75vh - 120px); /* Increased reduction to move section up on mobile */
+    }
+    
+    .hero-section img {
+        object-fit: contain;
+        top: 0px; /* Move image up on mobile */
+    }
+
+    .btn-overlay {
+        left: 50%;
+        bottom: 8%; /* Move button higher on mobile */
+    }
+}

@@ -1,0 +1,27 @@
+#contact {
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.contact-info, .card {
+    height: auto !important;
+    min-height: 0;
+}
+
+.form-floating {
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    #contact .container {
+        padding: 0 15px;
+    }
+    
+    .card-body {
+        padding: 1rem;
+    }
+    
+    textarea.form-control {
+        min-height: 100px;
+    }
+}
